@@ -1,0 +1,8 @@
+server:
+  port: 2333
+lavalink:
+  server:
+    password: "krytex_music_bot_secure_2024"
+    sources:
+      youtube: true
+      soundcloud: true

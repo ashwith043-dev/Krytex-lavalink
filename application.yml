@@ -1,8 +1,11 @@
 server:
   port: 2333
+
 lavalink:
   server:
-    password: "krytex_music_bot_secure_2024"
+    password: "${LAVALINK_SERVER_PASSWORD}"
     sources:
       youtube: true
       soundcloud: true
+      bandcamp: true
+    bufferDurationMs: 400

@@ -1,2 +1,5 @@
 [build]
-builder = "nixpacks"
+builder = "dockerfile"
+
+[variables]
+LAVALINK_SERVER_PASSWORD = "your_secure_password_here"
